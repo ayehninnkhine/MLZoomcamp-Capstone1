@@ -15,21 +15,6 @@ The objective of the project is to predict the house price based on its features
 * 'prefarea' - is it located in preference area? (Yes/No)
 * 'furnishingstatus' - is the furniture included in the house? (category variable)
 * 'price' - target variable: Price of the house
-
-
-price               545 non-null int64
-area                545 non-null int64
-bedrooms            545 non-null int64
-bathrooms           545 non-null int64
-stories             545 non-null int64
-mainroad            545 non-null object
-guestroom           545 non-null object
-basement            545 non-null object
-hotwaterheating     545 non-null object
-airconditioning     545 non-null object
-parking             545 non-null int64
-prefarea            545 non-null object
-furnishingstatus    545 non-null object
    
 Developed ML model is realized as a web service and deployed to the Google Cloud Platform.    
    
